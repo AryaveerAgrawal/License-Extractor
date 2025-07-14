@@ -62,13 +62,16 @@ class APIResponse(BaseModel):
 origins = [
     "http://localhost:5500",
     "http://127.0.0.1:5500",
-     "http://localhost:3000",
-     "http://localhost:3001",
+    "http://localhost:3000",
+    "http://localhost:3001",
     "http://localhost:8080",
     "http://127.0.0.1:8080",
-    "https://licenseee-lovat.vercel.app/"
-    "file://",  # For local file access
-    "*"  # Allow all origins for testing (remove in production)
+    "http://192.168.29.210:3000",    # Add this line
+    "http://192.168.29.210:5500",    # Add this line
+    "http://192.168.29.210:8080",    # Add this line (if using port 8080)
+    "https://licenseee-lovat.vercel.app/",
+    "file://",
+    "*"
 ]
 
 app.add_middleware(
