@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/backk.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/backk.py"
+    }
+  ]
+}
