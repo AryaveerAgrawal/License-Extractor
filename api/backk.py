@@ -66,7 +66,7 @@ origins = [
      "http://localhost:3001",
     "http://localhost:8080",
     "http://127.0.0.1:8080",
-    "https://lsence-lovat.vercel.app/"
+    "https://licenseee-lovat.vercel.app/"
     "file://",  # For local file access
     "*"  # Allow all origins for testing (remove in production)
 ]
